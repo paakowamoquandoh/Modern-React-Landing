@@ -1,2 +1,1 @@
-# calculator-app
-Made with 3 different themes
+# A modern AI web page built with react
