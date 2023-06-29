@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: -2rem 1px;
 }
 
 .mediaBrand div {
@@ -14,4 +15,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mediaBrand img{
+    height: auto;
+    width: 100%;
 }

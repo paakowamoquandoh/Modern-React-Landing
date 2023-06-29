@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="mediaNavbar">
       <div className="mediaNavbar-links">
         <div className="mediaNavbarLogo">
-          <h2 className='addfont'>Media<i className='goldText'>Rebrand</i></h2>
+          <h1>Media<i className='goldText'>Rebrand</i></h1>
         </div>
         <div className="mediaNavbar-links_container">
           <p><a href="#home">Home</a></p>
@@ -30,11 +30,11 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="mediaNavbar-menu_container scale-up-center">
           <div className="mediaNavbar-menu_container-links">
-            <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">What is GPT3?</a></p>
-            <p><a href="#possibility">Open AI</a></p>
-            <p><a href="#features">Case Studies</a></p>
-            <p><a href="#blog">Library</a></p>
+          <p><a href="#home">Home</a></p>
+          <p><a href="#wgpt3">Why Us</a></p>
+          <p><a href="#prospects">Prospects</a></p>
+          <p><a href="#features">Features</a></p>
+          <p><a href="#blog">Blog</a></p>
           </div>
           <div className="mediaNavbar-menu_container-links-sign">
             <p>Sign in</p>

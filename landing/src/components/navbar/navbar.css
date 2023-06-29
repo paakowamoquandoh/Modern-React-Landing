@@ -17,16 +17,17 @@
     margin-right: 2rem;
 }
 
-.addFont{
-    font-family: var(--font-family);
-}
-
 .goldText{
-    color: gold;
+    color: goldenrod;
 }
 
-.mediaNavbarLogo h2{
+.mediaNavbarLogo h1{
     color: var(--colorWhite);
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 25px;
+    cursor: pointer;
 }
 
 .mediaNavbar-links_container {
@@ -58,7 +59,7 @@
 .mediaNavbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #FF4820;
+    background: var(--mainRed);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;

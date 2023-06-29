@@ -51,7 +51,7 @@
     border: 2px solid var(--color-footer);
     padding: 0 1rem;
     outline: none;
-    color: #fff;
+    color: var(--colorWhite);
 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -62,12 +62,12 @@
     width: 100%;
     min-height: 50px;
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
-    line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
-    padding: 0 1rem;
+    line-height: 20px;
+    background: var(--mainRed);
+    border: 2px solid var(--mainRed);
+    padding: 0 0.6rem;
     color: #fff;
     cursor: pointer;
     outline: none;
@@ -110,7 +110,24 @@
 
 .mediaHeader-image img {
     width: 80%;
-    height: 80%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+    .mediaHeader-content__input input,
+    .mediaHeader-content__input button {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mediaHeader-content__input button {        
+        padding: 0 1rem;      
+    }
+    
+    .mediaHeader-image img {
+        width: 100%;
+        height: 80%;
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -121,6 +138,8 @@
     .mediaHeader-content {
         margin: 0 0 3rem;
     }
+
+  
 }
 
 @media screen and (max-width: 650px) {

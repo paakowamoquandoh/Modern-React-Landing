@@ -4,7 +4,7 @@ import './brand.css';
 
 const Brand = () => (
   <div className="mediaBrand section__padding">
-    {/* <div>
+    <div>
       <img alt='brand1' src={google} />
     </div>
     <div>
@@ -18,7 +18,7 @@ const Brand = () => (
     </div>
     <div>
       <img alt='brand5' src={shopify} />
-    </div> */}
+    </div>
   </div>
 );
 
